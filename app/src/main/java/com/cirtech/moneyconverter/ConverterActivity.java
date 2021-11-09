@@ -21,7 +21,7 @@ public class ConverterActivity extends AppCompatActivity {
         edt2 = findViewById(R.id.txtAmount1);
         b1 = findViewById(R.id.btnConvert);
         b2 = findViewById(R.id.btnExit);
-        ed2 = findViewById(R.id.answer);
+      //  ed2 = findViewById(R.id.answer);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +35,7 @@ public class ConverterActivity extends AppCompatActivity {
                     Double amount = Double.parseDouble(ed1.getText().toString());
                     cents = amount * 100;
                     Toast.makeText(getApplicationContext(), cents.toString(), Toast.LENGTH_LONG).show();
-                    ed2.setText(cents.toString() + " cents");
+                  //  ed2.setText(cents.toString() + " cents");
                     edt2.setText(cents.toString());
                 }
             }
