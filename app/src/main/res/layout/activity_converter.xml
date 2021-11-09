@@ -98,6 +98,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
@@ -121,6 +122,5 @@
             android:textSize="30dp"
             tools:layout_editor_absoluteX="202dp"
             tools:layout_editor_absoluteY="330dp" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
