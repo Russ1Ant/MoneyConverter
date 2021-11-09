@@ -105,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#ccccff"
-            android:text="Amount in Cents: "
+            android:text="Amount (Cents): "
             android:textColor="@android:color/black"
             android:textSize="30dp"
             tools:layout_editor_absoluteX="0dp"
